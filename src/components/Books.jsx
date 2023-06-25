@@ -5,7 +5,6 @@ export const Books = () => {
   const books = getBooks();
   return (
     <div style={{ display: "flex", justifyContent: "right"}}>
-      <Outlet/>
       <nav style={{ borderLeft: "solid 1px", padding: "1rem", margin: "0 2rem" }}>
         <input
           type="text"
@@ -22,6 +21,7 @@ export const Books = () => {
           </Link>
         ))}
       </nav>
+      <Outlet/>
     </div>
   );
 };
