@@ -7,8 +7,8 @@ export const Book = () => {
 
   if (book) {
     return (
-      <main style={{ display: "block", textAlign: "center" }}>
-        <h3>Total Amount: {book.amount}</h3>
+      <main style={{ padding: "1rem" }}>
+        <h2>Total Amount: {`${book.amount}$`}</h2>
         <p>{book.name}</p>
         <p>Date of release: {book.due}</p>
         <p>
@@ -17,6 +17,10 @@ export const Book = () => {
       </main>
     );
   } else {
-    return (<p>.برو خدا روزیتو جای دیگه حواله کنه</p>)
+    return (
+      <main style={{ padding: "1rem" }}>
+        <h1>{`برو خدا روزیتو جای دیگه حواله کنه.)):`}</h1>
+      </main>
+    );
   }
 };

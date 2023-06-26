@@ -19,7 +19,7 @@ root.render(
             <Route
               index
               element={
-                <main style={{padding: "1rem"}}>
+                <main style={{ padding: "1rem" }}>
                   <h2>کتابتو انتخاب کن... بدو!!! زود!!!</h2>
                 </main>
               }

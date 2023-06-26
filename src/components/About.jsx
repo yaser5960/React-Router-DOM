@@ -5,7 +5,7 @@ export default function About() {
     <div style={{ padding: "1rem 0" }}>
       <h2>بیا درباره ما بخونش</h2>
       <input type="text" />
-      <Link to="/about" style={{display: "block"}}>شلام وچه خوجل</Link>
+      <Link to="/about" style={{display: "block"}}>شلام بچه خوجل</Link>
     </div>
   );
 }
